@@ -19,6 +19,7 @@ ul {
   list-style: none;
   list-style-position: inside;
   padding-left: 0 !important;
+  margin-bottom: 0;
 }
 
 .flex-center {
