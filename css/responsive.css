@@ -1,0 +1,112 @@
+/*////////// Responsive */
+
+/* Smartphones */
+@media (max-width:767px) {
+  .hidden-sm {
+    display: none;
+  }
+
+  ul.topbar-lista li {
+    color: #FFF;
+    display: inline-block;
+    font-size: 9px;
+    font-weight: normal;
+    margin: 0;
+    text-transform: uppercase;
+  }
+
+  .shop-number {
+    left: 40px;
+  }
+
+  .section-title {
+    font-size: 22px;
+  }
+
+  .carousel-indicators {
+    bottom: -10px;
+  }
+
+  .carousel-indicators li {
+    width: 15px;
+    height: 15px;
+    border: 1px solid rgba(255,255,255, .8);
+  }
+
+  .condicoes-card {
+    padding: 15px;
+    margin-bottom: 15px;
+  }
+
+  .categoria-card {
+    margin-bottom: 30px;
+  }
+
+  .card-modelos {
+    padding: 25px 15px;
+    margin-bottom: 30px;
+    min-height: auto;
+  }
+
+  .copy-content {
+    margin-bottom: 4px;
+    text-align: center;
+  }
+}
+
+/* Smartphones + tablets */
+@media (max-width:991px) {
+  .condicoes-card {
+    min-height: unset;
+  }
+
+  .ecossistema-card {
+    margin-bottom: 30px;
+  }
+
+  .card-experiencia_passion.card-1 {
+    height: auto;
+    margin-bottom: 30px;
+  }
+
+  .footer-col {
+    margin-bottom: 50px;
+  }
+  
+}
+
+/* Tablets */
+@media (min-width:768px) and (max-width:991px) {
+  .shop-number {
+    left: 85px;
+  }
+
+  .condicoes-card {
+    padding: 25px 5px;
+  }
+  .card-experiencia_passion.card-1 .content,
+  .card-experiencia_passion.card-2 .content {
+    max-width: 70%;
+  }
+}
+
+/* Netbooks */
+@media (min-width:992px) and (max-width:1199px){
+  .shop-number {
+    left: 55px;
+  } 
+
+  .condicoes {
+    padding: 50px;
+  }
+}
+
+/* Desktop + Notbooks */
+@media (min-width:1200px) {
+  .condicoes {
+    padding: 50px 180px;
+  }  
+  .card-experiencia_passion .content-limit {
+    max-width: 70%;
+  }
+}
