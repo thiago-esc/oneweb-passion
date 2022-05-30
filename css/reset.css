@@ -11,6 +11,10 @@ a:hover {
   text-decoration: none;
 }
 
+article, aside, div, main, section {
+  box-sizing: border-box;
+}
+
 img {
   max-width: 100%;
 }
@@ -20,10 +24,4 @@ ul {
   list-style-position: inside;
   padding-left: 0 !important;
   margin-bottom: 0;
-}
-
-.flex-center {
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }

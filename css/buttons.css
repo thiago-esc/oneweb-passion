@@ -29,3 +29,13 @@
   background: #e56969;
   color: aliceblue;
 }
+
+.btn-color_03 {
+  background: lightgray;
+  color: #141414;
+}
+
+.btn-color_03:hover {
+  background: rgb(195, 195, 195);
+  color: #141414;
+}

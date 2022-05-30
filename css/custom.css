@@ -1,0 +1,23 @@
+.spad-50 {
+  padding: 50px 0;
+}
+
+.spad-100 {
+  padding: 100px 0;
+}
+
+.set-img {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}

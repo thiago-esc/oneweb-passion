@@ -52,6 +52,33 @@
     margin-bottom: 4px;
     text-align: center;
   }
+
+  /*////////// Page Produtos */
+  .sidebar-categorias {
+    display: flex;
+    padding: 30px 15px;
+  }
+
+  .sidebar-item {
+    margin: 0 15px;
+  }
+
+  /*////////// Page Carrinho */
+  .el_only-mobile {
+    border-top: 1px solid #eee;
+    display: block;
+    padding-top: 15px;
+  }
+
+  main.cart .celula-alt {
+    flex-direction: column;
+  }
+
+  main.cart .celula-alt a {
+    width: 100%;
+    margin-top: 15px;
+  }
+
 }
 
 /* Smartphones + tablets */
@@ -105,8 +132,15 @@
 @media (min-width:1200px) {
   .condicoes {
     padding: 50px 180px;
-  }  
+  } 
+
   .card-experiencia_passion .content-limit {
     max-width: 70%;
+  }
+
+  /*////////// Page Produtos */
+  main.produtos {
+    padding-left: 50px;
+    padding-right: 50px;
   }
 }

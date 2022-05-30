@@ -1,13 +1,5 @@
+@import './custom.css';
 @import './buttons.css';
-
-/*////////// Geral */
-.spad-50 {
-  padding: 50px 0;
-}
-
-.spad-100 {
-  padding: 100px 0;
-}
 
 .card-radius {
   border-radius: 6px;
@@ -318,4 +310,124 @@ ul.topbar-lista li::before {
   padding: 7px 0;
 }
 
+/*////////// Page Sobre */
+.topo-internas {
+  background-image: url(../img/banner-topo-categoria.png);
+  min-height: 70vh;
+}
 
+/*////////// Page Produtos */
+.sidebar-categorias {
+  padding: 30px 50px;
+}
+.form-ordenar label {
+  font-size: 12px;
+  font-weight: 400;
+  margin-right: 10px;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+
+.form-control-alt,
+.form-ordenar .form-control-ordenar {
+  border-color: #000;
+  border-radius: 6px;
+}
+
+/*////////// Page Produto */
+.produto-descricao {
+  padding: 50px 30px 15px;
+}
+
+.produto-descricao span{
+  font-size: 12px;
+}
+
+.form-control-qtd {
+  border-color: #000;
+  border-radius: 6px;
+  max-width: 100px;
+}
+
+/*////////// Page Carrinho */
+.el_only-mobile {
+  display: none;
+}
+
+main.cart .cart-header {
+  padding: 20px 5px;
+}
+
+main.cart .celula {
+  padding: 20px 5px;
+}
+
+main.cart .celula img {
+  width: 150px;
+  max-height: 150px;
+}
+
+main.cart .btn-remove {
+  color: red;
+  font-size: 10px;
+}
+
+main.cart .celula-alt {
+  display: flex;
+  align-items: center;
+}
+
+main.cart .celula-alt span {
+  min-width: 150px;
+}
+
+main.cart .celula-alt .form-control {
+  max-width: 150px;
+}
+
+/*////////// Page Pagto */
+.pagto .box {
+  margin-bottom: 50px;
+  padding: 25px 15px;
+}
+.pagto .box-id {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 25px 15px;
+  min-height: 250px;
+}
+
+.pagto .box-resumo {
+  border: 2px solid #ccc;
+  padding: 15px 10px;
+}
+
+.pagto ul.resumo-compra li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.pagto ul.resumo-compra li:last-child {
+  margin-bottom: 10px;
+}
+
+.pagto .produto-item img {
+  max-width: 50px;
+  margin-right: 10px;
+}
+
+form.cadastro label {
+  font-size: 11px;
+}
+
+form.cadastro .form-control {
+  box-shadow: 1px 1px 2px rgba(0,0,0,.7);
+}
+
+/*////////// Page Ecossistema */
+.gallery-item .item-1 {
+  height: 100%;
+}
